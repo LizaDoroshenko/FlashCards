@@ -1,7 +1,9 @@
 <div id="main-page" class="main-page">
 {{#each allTheme}}
+
 <form id="theme-1" method="GET" action="/questions">
-  <div class="card text-white bg-success mb-3 bg-info p-2 bg-opacity-50"  >
+  <div class="card text-white bg-light p-2 bg-opacity-50"  >
+
     <img src=""  class="card-img-top" alt="image">
     <div class="card-body">
       <p class="card-text">{{this.theme}}</p>
@@ -10,25 +12,4 @@
   </div>
 </form>
 {{/each}}
-
-{{!-- <form id="theme-2" action="/questions">
-  <div class="card text-white bg-success mb-3 bg-info p-2 bg-opacity-50" >
-    <img src="" class="card-img-top" alt="image">
-    <div class="card-body">
-      <p class="card-text">Тема 2</p>
-      <button id="btn-2" type="submit" name='btn2' class="btn btn-primary btn btn-light">Играть</button>
-    </div>
-  </div>
-  </form>
-
-<form id="theme-3" action="/questions">
-  <div class="card text-white bg-success mb-3 bg-info p-2 bg-opacity-50" >
-    <img src="" class="card-img-top" alt="image">
-    <div class="card-body">
-      <p class="card-text">Тема 3</p>
-      <button id="btn-3" type="submit" name='btn3' class="btn btn-primary btn btn-light">Играть</button>
-    </div>
-  </div>
-    </form> --}}
-
 </div>

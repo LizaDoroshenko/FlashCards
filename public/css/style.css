@@ -18,6 +18,7 @@
 .card {
   width: 250px;
   height: 350px;
+  margin: 5px;
 }
 
 .card-body {
@@ -26,4 +27,20 @@
   justify-content: flex-end;
   align-items: center
 
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  color: white;
+}
+
+.nav-a {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
 }
