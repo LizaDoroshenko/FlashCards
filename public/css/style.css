@@ -1,0 +1,18 @@
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20vh;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center
+}
