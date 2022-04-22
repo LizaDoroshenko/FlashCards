@@ -22,7 +22,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    let readTheme = await fs.readdir('./question')
+    let readTheme = await fs.readdir('./questions')
     let arr = []
     for (let i = 0; i < readTheme.length; i++) {
       arr.push(readTheme[i].slice(0, -4))
