@@ -1,11 +1,18 @@
 
+  
+
 #windows {
   display: flex;
-
+  
   justify-content: center;
   align-items: center;
-
+  
   text-align: center;
+  color: aliceblue;
+     background: url(./game.gif); 
+      background-size: cover ;
+      margin-top: 12%;
+
 }
 
 .main-page {
