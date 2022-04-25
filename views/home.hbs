@@ -1,11 +1,13 @@
 <div id="main-page" class="main-page">
 {{#each allTheme}}
-<form id="theme-1" action="/questions">
+
+<form id="theme-1" method="GET" action="/questions">
   <div class="card text-white bg-light p-2 bg-opacity-50"  >
+
     <img src=""  class="card-img-top" alt="image">
     <div class="card-body">
       <p class="card-text">{{this.theme}}</p>
-      <button id="btn-1" type="submit" name='btn1' class="btn btn-primary btn btn-light">Играть</button>
+      <button cardid='{{this.id}}' type="submit" class="btn btn-primary btn btn-light">Играть</button>
     </div>
   </div>
 </form>

@@ -7,7 +7,7 @@ router
   .get('/', async (req, res) => {
     const allTheme = await Deck.findAll({
       raw: true,
-      attributes: ['theme'],
+      attributes: ['id', 'theme'],
     });
     res.render('home', { allTheme });
   })
